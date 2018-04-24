@@ -1,4 +1,5 @@
 function initAccordion(accordionElement) {
+  var accordionElement = document.querySelector(".accordion")
 
   function handlePanelClick(event) {
     showPanel(event.currentTarget)
@@ -23,4 +24,4 @@ function initAccordion(accordionElement) {
   showPanel(allPanelElements[0])
 }
 
-initAccordion(document.getElementById("accordion"))
+initAccordion(document.querySelector(".accordion"))

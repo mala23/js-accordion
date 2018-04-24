@@ -1,7 +1,7 @@
-.accordion__panel--status-active {
+.accordion__panel--status-active .accordion__body{
   display: block;
 }
 
-.accordion__panel--status-inactive {
+.accordion__panel--status-inactive .accordion__body{
   display: none;
 }
