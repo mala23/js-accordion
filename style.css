@@ -1,0 +1,7 @@
+.accordion__panel--status-active {
+  display: block;
+}
+
+.accordion__panel--status-inactive {
+  display: none;
+}
