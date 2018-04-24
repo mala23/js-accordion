@@ -1,5 +1,5 @@
+window.onload = function() {
 function initAccordion(accordionElement) {
-  var accordionElement = document.querySelector(".accordion")
 
   function handlePanelClick(event) {
     showPanel(event.currentTarget)
@@ -8,11 +8,11 @@ function initAccordion(accordionElement) {
   function showPanel(panel) {
     var expandedPanel = accordionElement.querySelector(".accordion__panel--status-active")
     if (expandedPanel) {
-      expandedPanel.classList.remove(".accordion__panel--state-active")
-      expandedPanel.classList.add(".accordion__panel--state-inactive")
+      expandedPanel.classList.remove("accordion__panel--state-active")
+      expandedPanel.classList.add("accordion__panel--state-inactive")
     }
-    panel.classList.remove(".accordion__panel--state-inactive")
-    panel.classList.add(".accordion__panel--state-active")
+    panel.classList.remove("accordion__panel--state-inactive")
+    panel.classList.add("accordion__panel--state-active")
   }
 
   var allPanelElements = accordionElement.querySelectorAll(".accordion__panel")
@@ -25,3 +25,4 @@ function initAccordion(accordionElement) {
 }
 
 initAccordion(document.querySelector(".accordion"))
+}
